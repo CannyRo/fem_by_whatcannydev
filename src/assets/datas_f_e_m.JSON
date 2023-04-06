@@ -1,0 +1,704 @@
+{ "challenges" : [
+    {
+        "id" : 0,
+        "title" : "Workit landing page",
+        "technology" : ["HTML", "CSS"],
+        "category" : "NEWBIE",
+        "resume" : "This HTML and CSS-only landing page will be an excellent test of your UI and responsive skills. There’s also some fun to be had creating the curved section borders!"
+    },
+    {
+        "id" : 1,
+        "title" : "Results summary component",
+        "technology" : ["HTML", "CSS"],
+        "category" : "NEWBIE",
+        "resume" : "This challenge has something for everyone. It’s a HTML and CSS only project, but we’ve also provided a JSON file of the test results for anyone wanting to practice JS."
+    },
+    {
+        "id" : 2,
+        "title" : "Product preview card component",
+        "technology" : ["HTML", "CSS"],
+        "category" : "NEWBIE",
+        "resume" : "This HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects."
+    },
+    {
+        "id" : 3,
+        "title" : "Skilled e-learning landing page",
+        "technology" : ["HTML", "CSS"],
+        "category" : "NEWBIE",
+        "resume" : "This responsive page is perfect if you've learned the fundamentals of HTML & CSS, completed a couple of smaller projects, and want to take it up a notch."
+    },
+    {
+        "id" : 4,
+        "title" : "Interactive rating component",
+        "technology" : ["HTML", "CSS", "JS"],
+        "category" : "NEWBIE",
+        "resume" : "This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!"
+    },
+    {
+        "id" : 5,
+        "title" : "QR code component",
+        "technology" : ["HTML", "CSS"],
+        "category" : "NEWBIE",
+        "resume" : "A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet."
+    },
+    {
+        "id" : 6,
+        "title" : "NFT preview card component",
+        "technology" : ["HTML","CSS"],
+        "category" : "NEWBIE",
+        "resume" : "This HTML & CSS only challenge is perfect for anyone just starting out or anyone wanting a small project to play around with."
+    },
+    {
+        "id" : 7,
+        "title" : "Equalizer landing page",
+        "technology" : ["HTML","CSS"],
+        "category" : "NEWBIE",
+        "resume" : "This challenge will be a perfect test of your HTML & CSS skills. If you're starting to get comfortable building smaller projects, this will be a great step up."
+    },
+    {
+        "id" : 8,
+        "title" : "Order summary component",
+        "technology" : ["HTML","CSS"],
+        "category" : "NEWBIE",
+        "resume" : "A perfect project for newbies who are starting to build confidence with layouts!"
+    },
+    {
+        "id" : 9,
+        "title" : "Stats preview card component",
+        "technology" : ["HTML","CSS"],
+        "category" : "NEWBIE",
+        "resume" : "This is a great small challenge to help get you used to building to a design. There's no JS in this project, so you'll be able to focus on your HTML & CSS skills."
+    },
+    {
+        "id" : 10,
+        "title" : "Meet landing page",
+        "technology" : ["HTML","CSS"],
+        "category" : "NEWBIE",
+        "resume" : "This HTML & CSS only challenge is perfect if you're starting to get a bit comfortable with your layout skills. The responsive layout shifts will also be a great test!"
+    },
+    {
+        "id" : 11,
+        "title" : "3-column preview card component",
+        "technology" : ["HTML","CSS"],
+        "category" : "NEWBIE",
+        "resume" : "This challenge is perfect if you're just getting started. The shift between the layouts will be a nice test if you're new to building responsive projects."
+    },
+    {
+        "id" : 12,
+        "title" : "Pod request access landing page",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "NEWBIE",
+        "resume" : "In this challenge, you'll be building out an early access landing page that includes custom form validation."
+    },
+    {
+        "id" : 13,
+        "title" : "Profile card component",
+        "technology" : ["HTML","CSS"],
+        "category" : "NEWBIE",
+        "resume" : "This is a perfect challenge to test your layout skills. The card layout doesn't shift, so it's also great for those that haven't dived into responsive websites yet!"
+    },
+    {
+        "id" : 14,
+        "title" : "FAQ accordion card",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "NEWBIE",
+        "resume" : "In this challenge, you'll be building out an FAQ accordion. This is an extremely common front-end pattern, so it's a great opportunity to get some practice in!"
+    },
+    {
+        "id" : 15,
+        "title" : "Social proof section",
+        "technology" : ["HTML","CSS"],
+        "category" : "NEWBIE",
+        "resume" : "This project will test your layout skills. If you're starting to get confident with Flexbox or Grid, this will provide a nice challenge!"
+    },
+    {
+        "id" : 16,
+        "title" : "Article preview component",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "NEWBIE",
+        "resume" : "Practice your layout skills with this article preview component. There's lots of fun to be had playing around with animations for the sharing icons as well."
+    },
+    {
+        "id" : 17,
+        "title" : "Four card feature section",
+        "technology" : ["HTML","CSS"],
+        "category" : "NEWBIE",
+        "resume" : "A nice layout-based challenge for beginners. This will test anyone who is new to multi-column and responsive layouts."
+    },
+    {
+        "id" : 18,
+        "title" : "Base Apparel coming soon page",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "NEWBIE",
+        "resume" : "This layout looks simple enough, but there are some interesting details to it that will test your CSS skills. You'll also get to practice basic form validation."
+    },
+    {
+        "id" : 19,
+        "title" : "Intro component with sign-up form",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "NEWBIE",
+        "resume" : "Practice building out a sign-up form complete with client-side validation using JavaScript."
+    },
+    {
+        "id" : 20,
+        "title" : "Single price grid component",
+        "technology" : ["HTML","CSS"],
+        "category" : "NEWBIE",
+        "resume" : "In this challenge, you will build out the pricing component to the designs provided. This is perfect for beginners and people who want to complete a smaller challenge."
+    },
+    {
+        "id" : 21,
+        "title" : "Ping single column coming soon page",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "NEWBIE",
+        "resume" : "This challenge is great for beginners and offers a chance to practice basic client-side form validation."
+    },
+    {
+        "id" : 22,
+        "title" : "Huddle landing page with a single introductory section",
+        "technology" : ["HTML","CSS"],
+        "category" : "NEWBIE",
+        "resume" : "A perfect challenge for beginners, this project will get you working with a two column layout."
+    },
+    {
+        "id" : 23,
+        "title" : "Age calculator app",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "This challenge is designed to sharpen your JavaScript and form validation skills. Working with dates in JavaScript can be tricky, so this will be a nice test!"
+    },
+    {
+        "id" : 24,
+        "title" : "Single-page developer portfolio",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "Test your HTML and CSS skills with this portfolio site. Basic JS knowledge is needed for the form validation. You can even customize and use this as your own site!"
+    },
+    {
+        "id" : 25,
+        "title" : "News homepage",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "This news homepage will be an excellent opportunity to practice your CSS Grid skills. There will be lots of tricky decisions to make and plenty of learning opportunities!"
+    },
+    {
+        "id" : 26,
+        "title" : "Notifications page",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "This project will be a brilliant test of your HTML, CSS, and basic JavaScript skills. You'll use JS to toggle the visual state of the notifications."
+    },
+    {
+        "id" : 27,
+        "title" : "Interactive card details form",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "This fun project will be an excellent way to practice DOM manipulation and form validation while also putting your HTML and CSS skills to the test."
+    },
+    {
+        "id" : 28,
+        "title" : "Single-page design portfolio",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "This project will test your layout skills, especially in making the site fully responsive. The skills grid is a perfect chance to practice CSS Grid."
+    },
+    {
+        "id" : 29,
+        "title" : "Expenses chart component",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "In this challenge, you'll create a bar chart component from scratch. We provide a local JSON file, so you can add the chart data dynamically if you choose."
+    },
+    {
+        "id" : 30,
+        "title" : "Intro section with dropdown navigation",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "This challenge will test your ability to create dropdown navigation menus, a common pattern on larger sites. It will also provide some nice basic layout challenges."
+    },
+    {
+        "id" : 31,
+        "title" : "Advice generator app",
+        "technology" : ["HTML","CSS", "JS", "API"],
+        "category" : "JUNIOR",
+        "resume" : "The perfect project if you're learning how to interact with rd-party APIs. This challenge uses the Advice Slip API to generate random quotes of advice."
+    },
+    {
+        "id" : 32,
+        "title" : "Suite landing page",
+        "technology" : ["HTML","CSS"],
+        "category" : "JUNIOR",
+        "resume" : "This small-ish HTML and CSS only landing page includes some interesting layout decisions. Perfect if you want to put your layout and responsive skills to the test!"
+    },
+    {
+        "id" : 33,
+        "title" : "Art gallery website",
+        "technology" : ["HTML","CSS"],
+        "category" : "JUNIOR",
+        "resume" : "This two-page art gallery project will be perfect if you're ready to branch out beyond single landing pages. There are some particularly interesting layout challenges!"
+    },
+    {
+        "id" : 34,
+        "title" : "Time tracking dashboard",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "A perfect opportunity to practice your CSS Grid skills. For anyone wanting to take it up a notch, we provide a JSON data file to practice working with data."
+    },
+    {
+        "id" : 35,
+        "title" : "GitHub user search app",
+        "technology" : ["HTML","CSS", "JS", "API"],
+        "category" : "JUNIOR",
+        "resume" : "In this project, you'll use the GitHub users API to pull profile data and display it. It's a great challenge if you're looking to practice working with a 3rd-party API."
+    },
+    {
+        "id" : 36,
+        "title" : "Tip calculator app",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "This small app is perfect for anyone starting to get to grips with JavaScript. The calculator functionality will be a nice test!"
+    },
+    {
+        "id" : 37,
+        "title" : "Sunnyside agency landing page",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "This challenge will be a perfect test of your layout and responsive skills. There's a tiny bit of JS for the mobile menu, but the focus is HTML & CSS."
+    },
+    {
+        "id" : 38,
+        "title" : "Typemaster pre-launch landing page",
+        "technology" : ["HTML","CSS"],
+        "category" : "JUNIOR",
+        "resume" : "This project will be a perfect opportunity to put your CSS Grid skills to the test. The layout shifts from mobile, to tablet, to desktop will also be a nice challenge."
+    },
+    {
+        "id" : 39,
+        "title" : "Blogr landing page",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "Flex your layout muscles with this landing page challenge. You'll mostly be working with HTML & CSS for this project with a tiny bit of JS for the mobile menu."
+    },
+    {
+        "id" : 40,
+        "title" : "Crowdfunding product page",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "This challenge will test both your layout and state management skills. As visitors make pledges, your goal is to keep track of the changes."
+    },
+    {
+        "id" : 41,
+        "title" : "Interactive pricing component",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "In this project, you'll build out an interactive pricing component complete with custom range input slider and pricing toggle. A perfect way to test your JS skills!"
+    },
+    {
+        "id" : 42,
+        "title" : "Maker pre-launch landing page",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "Put your layout skills to the test with this landing page challenge. The only JS you'll need will be for the custom form validation on the email input."
+    },
+    {
+        "id" : 43,
+        "title" : "Loopstudios landing page",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "This challenge is perfect if you're looking to test your CSS Grid chops. Even without Grid, this project will be a fun one to help you practice your layout skills!"
+    },
+    {
+        "id" : 44,
+        "title" : "Officelite coming soon site",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "This -page challenge will be a perfect test if you're starting to get comfortable with your HTML & CSS skills. There are a couple of small bonus challenges too!"
+    },
+    {
+        "id" : 45,
+        "title" : "Testimonials grid section",
+        "technology" : ["HTML","CSS"],
+        "category" : "JUNIOR",
+        "resume" : "This challenge will be perfect practice for anyone wanting to test their CSS Grid skills. Grid is such a powerful addition to CSS, so it's worth getting to grips with it!"
+    },
+    {
+        "id" : 46,
+        "title" : "Fylo data storage component",
+        "technology" : ["HTML","CSS"],
+        "category" : "JUNIOR",
+        "resume" : "This component has some interesting CSS challenges in the design. If you're looking to test your CSS skills, this will be a great project for you!"
+    },
+    {
+        "id" : 47,
+        "title" : "Coding bootcamp testimonials slider",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "This challenge will be a nice test if you're new to JavaScript. It's also a great opportunity to play around with content animations and transitions."
+    },
+    {
+        "id" : 48,
+        "title" : "Social media dashboard with theme switcher",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "This challenge will be a perfect chance to practice your Grid skills. The color theme switcher also adds a nice additional test."
+    },
+    {
+        "id" : 49,
+        "title" : "Insure landing page",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "Test your layout skills with this HTML & CSS only landing page. This challenge is perfect if you're starting to get confident in laying out web pages."
+    },
+    {
+        "id" : 50,
+        "title" : "Pricing component with toggle",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "This challenge will get you thinking about building an accessible custom toggle control and also test your layout skills."
+    },
+    {
+        "id" : 51,
+        "title" : "Project tracking intro component",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "Some interesting layout and code challenges are baked into this design. Perfect if you're a beginner who is starting to get a bit more confident with your layouts."
+    },
+    {
+        "id" : 52,
+        "title" : "Clipboard landing page",
+        "technology" : ["HTML","CSS"],
+        "category" : "JUNIOR",
+        "resume" : "Put your layout skills to the test with this HTML & CSS landing page challenge. This challenge includes a design for hover states."
+    },
+    {
+        "id" : 53,
+        "title" : "Huddle landing page with alternating feature blocks",
+        "technology" : ["HTML","CSS"],
+        "category" : "JUNIOR",
+        "resume" : "This challenge is perfect if you're wanting to practice your layout skills. If you're starting to get a bit more confident laying out a web page, give this project a go."
+    },
+    {
+        "id" : 54,
+        "title" : "Fylo dark theme landing page",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "JUNIOR",
+        "resume" : "This design has some nice layout challenges in it. A perfect training ground to practice your Flexbox and/or Grid skills."
+    },
+    {
+        "id" : 55,
+        "title" : "Fylo landing page with two column layout",
+        "technology" : ["HTML","CSS"],
+        "category" : "JUNIOR",
+        "resume" : "This project is great if you're starting to get confident with slightly more complex layouts. The second section with the testimonial area will provide a nice challenge."
+    },
+    {
+        "id" : 56,
+        "title" : "Huddle landing page with curved sections",
+        "technology" : ["HTML","CSS"],
+        "category" : "JUNIOR",
+        "resume" : "Practice using pseudo-elements for styling extras and the CSS position property for the sections with curved edges."
+    },
+    {
+        "id" : 57,
+        "title" : "Dictionary web app",
+        "technology" : ["HTML","CSS", "JS", "API"],
+        "category" : "INTERMEDIATE",
+        "resume" : "In this project, you'll integrate with the Dictionary API to create a real-world dictionary web app. Additional tests include colour themes and font selection."
+    },
+    {
+        "id" : 58,
+        "title" : "Password generator app",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "INTERMEDIATE",
+        "resume" : "This app will be an excellent test of your HTML, CSS, and JS skills. You'll build custom form controls and use JavaScript to generate random passwords."
+    },
+    {
+        "id" : 59,
+        "title" : "In-browser markdown editor",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "INTERMEDIATE",
+        "resume" : "In this project, you'll build a fully-functional in-browser markdown editor application with a light/dark mode toggle. It's also perfect to build as a full-stack app!"
+    },
+    {
+        "id" : 60,
+        "title" : "Tic Tac Toe game",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "INTERMEDIATE",
+        "resume" : "This classic practice project for web developers is a great exercise to complete. It will test your HTML semantics, your grid layout skill, as well as your JS logic."
+    },
+    {
+        "id" : 61,
+        "title" : "Interactive comments section",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "INTERMEDIATE",
+        "resume" : "This is project will put your JavaScript skills to the test. We provide a JSON file to pull the data, but it's also a perfect project to build as a full-stack CRUD app!"
+    },
+    {
+        "id" : 62,
+        "title" : "Space tourism multi-page website",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "INTERMEDIATE",
+        "resume" : "This project is a fun collaboration with Scrimba and Kevin Powell! If you like, you can follow along and watch Kevin complete the project on Scrimba. Lots to learn!"
+    },
+    {
+        "id" : 63,
+        "title" : "E-commerce product page",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "INTERMEDIATE",
+        "resume" : "In this challenge, you'll build a beautiful product page. We'll be putting your JS skills to the test with a lightbox product gallery and cart functionality!"
+    },
+    {
+        "id" : 64,
+        "title" : "Galleria slideshow site",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "INTERMEDIATE",
+        "resume" : "This art gallery slideshow project will be a great test for your layout and JS skills. With the masonry layout, slideshow logic, and lightbox view there's a lot to build!"
+    },
+    {
+        "id" : 65,
+        "title" : "Planets fact site",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "INTERMEDIATE",
+        "resume" : "In this challenge, you'll be building out an 8-page fact site for all planets in our solar system. This project will make an incredible portfolio piece when completed!"
+    },
+    {
+        "id" : 66,
+        "title" : "Calculator app",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "INTERMEDIATE",
+        "resume" : "This calculator app will be a great test of your CSS and JS skills especially. If you're wanting to practice using Grid, this challenge will be perfect for you!"
+    },
+    {
+        "id" : 67,
+        "title" : "Coffeeroasters subscription site",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "INTERMEDIATE",
+        "resume" : "This challenge will have you building a 3-page subscription site. As part of the project, you'll create an interactive subscription page to test your JS and logic skills!"
+    },
+    {
+        "id" : 68,
+        "title" : "Launch countdown timer",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "INTERMEDIATE",
+        "resume" : "This will be a fun one! Your challenge is to build this countdown timer. There are lots of small CSS tests in the design as well. So it should keep you busy!"
+    },
+    {
+        "id" : 69,
+        "title" : "Creative agency single-page site",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "INTERMEDIATE",
+        "resume" : "This challenge will put your layout skills to the test with lots of overlapping elements. If you're getting confident with your CSS layouts, this will be a great project!"
+    },
+    {
+        "id" : 70,
+        "title" : "Todo app",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "INTERMEDIATE",
+        "resume" : "The classic todo app with a few twists! This app includes a dark/light theme toggle and drag & drop reordering for anyone wanting an extra test."
+    },
+    {
+        "id" : 71,
+        "title" : "Clock app",
+        "technology" : ["HTML","CSS", "JS", "API"],
+        "category" : "INTERMEDIATE",
+        "resume" : "This challenge will have you working with external APIs to set data based on a visitor's location. You'll also be using logic to set content depending on the time of day."
+    },
+    {
+        "id" : 72,
+        "title" : "Room homepage",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "INTERMEDIATE",
+        "resume" : "This small homepage challenge packs a big punch to test your layout skills. There's also a slider in there to add a JS layer for extra practice."
+    },
+    {
+        "id" : 73,
+        "title" : "IP Address Tracker",
+        "technology" : ["HTML","CSS", "JS", "API"],
+        "category" : "INTERMEDIATE",
+        "resume" : "In this challenge, you'll be using two separate APIs together to create an IP Address Tracking app."
+    },
+    {
+        "id" : 74,
+        "title" : "Chat app CSS illustration",
+        "technology" : ["HTML","CSS"],
+        "category" : "INTERMEDIATE",
+        "resume" : "In this challenge, you'll be building out the entire app illustration from scratch. This will seriously test your CSS skills. So give it a go if you feel confident!"
+    },
+    {
+        "id" : 75,
+        "title" : "Scoot multi-page website",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "INTERMEDIATE",
+        "resume" : "This multi-page website will really test your front-end skills. There are 4 pages to build with mobile, tablet, and desktop designs included."
+    },
+    {
+        "id" : 76,
+        "title" : "Dine restaurant website",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "INTERMEDIATE",
+        "resume" : "This two-page website is perfect if you're starting to become more confident in your front-end skills. The challenge includes tricky design details and form validation."
+    },
+    {
+        "id" : 77,
+        "title" : "Minimalist portfolio website",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "INTERMEDIATE",
+        "resume" : "This multi-page portfolio site will be a great challenge to test your all-round front-end skills. You can even use the site as your own portfolio when you're finished!"
+    },
+    {
+        "id" : 78,
+        "title" : "Job listings with filtering",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "INTERMEDIATE",
+        "resume" : "In this challenge, you'll be using JavaScript to filter out jobs based on selected categories. We provide a local JSON file to help you practice working with JSON data."
+    },
+    {
+        "id" : 79,
+        "title" : "Easybank landing page",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "INTERMEDIATE",
+        "resume" : "This challenge will provide a nice test for your layout skills. If you're ready to move up from Junior challenges, this one is a great next step."
+    },
+    {
+        "id" : 80,
+        "title" : "Manage landing page",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "INTERMEDIATE",
+        "resume" : "This challenge will be a great test for your responsive skills. There are lots of small details and slight content shifts for different screen sizes."
+    },
+    {
+        "id" : 81,
+        "title" : "URL shortening API landing page",
+        "technology" : ["HTML","CSS", "JS", "API"],
+        "category" : "INTERMEDIATE",
+        "resume" : "Integrate with the shrtcode URL shortening API and play with browser storage in this landing page challenge."
+    },
+    {
+        "id" : 82,
+        "title" : "Bookmark landing page",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "INTERMEDIATE",
+        "resume" : "This challenge will really test your layout skills. There are also areas that will require some JavaScript, such as the tabbed features section and the FAQ accordion."
+    },
+    {
+        "id" : 83,
+        "title" : "Multi-step form",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "ADVANCED",
+        "resume" : "An excellent test for your form-building and JS skills, this project will pose many challenges along the way to completion."
+    },
+    {
+        "id" : 84,
+        "title" : "Connect Four game",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "ADVANCED",
+        "resume" : "Your JS knowledge will be challenged in this fun project, where you'll build a two-player game. You'll write the logic for the game and how to test for win conditions."
+    },
+    {
+        "id" : 85,
+        "title" : "Entertainment web app",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "ADVANCED",
+        "resume" : "This multi-page entertainment web app will have you working with JSON data, routing, state management, and search functionality."
+    },
+    {
+        "id" : 86,
+        "title" : "Memory game",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "ADVANCED",
+        "resume" : "This project will be an excellent test for your HTML, CSS, and JS skills! You'll be building a fun memory game where players try to match pairs."
+    },
+    {
+        "id" : 87,
+        "title" : "Pomodoro app",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "ADVANCED",
+        "resume" : "This Pomodoro app will provide some tricky challenges, including building a circular progress bar. You'll also build a range of customizations, like colors and fonts."
+    },
+    {
+        "id" : 88,
+        "title" : "Devjobs web app",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "ADVANCED",
+        "resume" : "Build a jobs board that pulls data from a local JSON file. This is a great opportunity to practice JS and get to grips with a framework/library of your choice!"
+    },
+    {
+        "id" : 89,
+        "title" : "PayAPI multi-page website",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "ADVANCED",
+        "resume" : "This 4-page website will be a great test for your HTML & CSS skills. You'll be building out a marketing site, complete with custom form validation throughout."
+    },
+    {
+        "id" : 90,
+        "title" : "Photosnap multi-page website",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "ADVANCED",
+        "resume" : "In this challenge, you'll be building the marketing site for a photo-sharing app. This will be a perfect opportunity to put your CSS Grid skills to the test!"
+    },
+    {
+        "id" : 91,
+        "title" : "Arch Studio multi-page website",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "ADVANCED",
+        "resume" : "In this challenge, you'll be building a 4-page site that will look great in any portfolio. You'll even get the chance to play with mapping APIs if you choose the bonus."
+    },
+    {
+        "id" : 92,
+        "title" : "Myteam multi-page website",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "ADVANCED",
+        "resume" : "This challenge will give you a real glimpse into a professional front-end developer's workflow. It includes designs for a 3-page fully-functional website."
+    },
+    {
+        "id" : 93,
+        "title" : "Rock, Paper, Scissors game",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "ADVANCED",
+        "resume" : "This challenge will test your HTML, CSS and JavaScript skills. There's even a Rock, Paper, Scissors, Lizard, Spock version if you really want to challenge yourself."
+    },
+    {
+        "id" : 94,
+        "title" : "REST Countries API with color theme switcher",
+        "technology" : ["HTML","CSS", "JS", "API"],
+        "category" : "ADVANCED",
+        "resume" : "If you're wanting to test your JavaScript skills this is the challenge for you. Use whichever JS framework you prefer and pull data from the REST Countries API."
+    },
+    {
+        "id" : 95,
+        "title" : "Kanban task management web app",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "GURU",
+        "resume" : "In this project, you'll build a fully-functional task management app with a light/dark mode toggle. We provide a JSON file, so you can practice working with JSON data."
+    },
+    {
+        "id" : 96,
+        "title" : "Product feedback app",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "GURU",
+        "resume" : "This will be a perfect portfolio piece! You'll be working with JSON, managing state, and building like a real-world app. You can even create it as a full-stack project!"
+    },
+    {
+        "id" : 97,
+        "title" : "Audiophile e-commerce website",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "GURU",
+        "resume" : "This huge e-commerce challenge will provide an incredible test for your front-end skills. Once you're done, you'll have an amazing project to add to your portfolio!"
+    },
+    {
+        "id" : 98,
+        "title" : "Invoice app",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "GURU",
+        "resume" : "This invoicing app project will test you on many levels. You'll be working with JSON data, managing state, plus a lot more. You can even build it out as a full-stack app!"
+    },
+    {
+        "id" : 99,
+        "title" : "Designo multi-page website",
+        "technology" : ["HTML","CSS", "JS"],
+        "category" : "GURU",
+        "resume" : "This one's a BIG project! This challenge includes 5 different templates that make up a 7-page site. A perfect portfolio piece to show how you build multi-page websites!"
+    }
+]
+    
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Poppins:wght@100;400;700&display=swap');
+
+:root {
+    --font-title : 'Limelight', cursive;
+    --font-body : 'Poppins', sans-serif;
+
+    --color-dark : #0d1b2a;
+    --color-dark-rgb : 13,27,42;
+    --color-light : #F7F4F3;
+    --color-light-rgb : 247,244,243;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    font-family: var(--font-body);
+    color: var(--color-dark);
+    background-color: var(--color-light);
+    background-image: url("/frontend-mentor-logo.png");
+    background-repeat: no-repeat;
+    background-position: center 2rem ;
+    background-size: 75vh;
+    backdrop-filter: blur(0.7rem);
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--font-title);
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+}
+a{
+    text-decoration: none;
+    color: var(--color-dark);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}

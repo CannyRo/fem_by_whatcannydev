@@ -1,0 +1,24 @@
+.toto{
+    width: 33vw;
+}
+.toto li{
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: font-size 0.2s ease-in-out;
+}
+.toto li span{
+    font-family: var(--font-title);
+    margin-right: 0.5rem;
+}
+
+.toto li:hover{
+    /* transform: 
+        scale(1.5)
+        translateX(2rem); */
+        font-size: 2rem;
+        line-height: 2.5rem;
+}
