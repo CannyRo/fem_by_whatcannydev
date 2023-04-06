@@ -17,6 +17,7 @@
 body{
     width: 100%;
     min-height: 100vh;
+    height: auto;
     font-family: var(--font-body);
     color: var(--color-dark);
     background-color: var(--color-light);
@@ -25,6 +26,10 @@ body{
     background-position: center 2rem ;
     background-size: 75vh;
     backdrop-filter: blur(0.7rem);
+    overflow-x: hidden;
+}
+main{
+    position: relative;
 }
 h1, h2, h3, h4, h5, h6{
     font-family: var(--font-title);

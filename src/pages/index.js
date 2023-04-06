@@ -5,6 +5,7 @@ import Title from "@/components/Title/Title";
 import Searchbar from "@/components/Searchbar/Searchbar";
 import Seebelow from "@/components/Seebelow/Seebelow";
 import ListOfChallenges from "@/components/ListOfChallenges/ListOfChallenges";
+import Cursor from "@/components/Cursor/Cursor";
 //
 import { Inter } from "next/font/google";
 import styles from "../styles/Home.module.css";
@@ -22,6 +23,7 @@ export default function Home() {
       </Head>
       
       <main>
+        <Cursor />
         <Title />
         <Searchbar />
         <Seebelow />
