@@ -1,76 +1,112 @@
-.floatingLabel{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 1rem;
+@media only screen {
+    .floatingLabel{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0 1rem;
+        margin: 1rem;
+    }
+    .formControl{
+        width: 100%;
+        height: 4rem;
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+        border-radius: 4rem;
+        border: 0.125rem solid var(--color-dark);
+        background-clip: padding-box;
+        background-color: inherit;
+        appearance: none;
+        overflow: hidden;
+        transition: 
+            padding-top 0.2s ease-in-out
+            padding-bottom 0.2s ease-in-out
+            border-color 0.2s ease-in-out
+            outline 0.2s ease-in-out
+            box-shadow 0.2s ease-in-out;
+    }
+    .formControl::placeholder{
+        opacity: 0;
+    }
+    .floatingLabel>label{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 1.375rem 1.5rem;
+        margin: 0 1rem;
+        font-size: 1rem;
+        overflow: hidden;
+        text-align: start;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        pointer-events: none;
+        border: 0.0625rem solid transparent;
+        transform-origin: 0 0;
+        transition: 
+            opacity .2s ease-in-out,
+            transform .2s ease-in-out;
+    }
+    .floatingLabel>.formControl:focus{
+        padding-top: 2rem;
+        padding-bottom: 0.5rem;
+    }
+    .floatingLabel>.formControl:focus~label{
+        opacity: 0.65;
+        transform: 
+            scale(0.85)
+            translateY(-0.875rem)
+            translateX(0.1875rem);
+    }
+    .formControl:focus{
+        border-color: #0d1b2a;
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgba(13,27,42,0.25);
+    }
+    .formBtn{
+        width: calc( 100% - 2rem);
+        height: 4rem;
+        margin-bottom: 2rem;
+        border-radius: 4rem;
+        border: 0.125rem solid var(--color-dark);
+        background-color: var(--color-dark);
+        color: var(--color-light);
+    }
 }
+@media only screen and (min-width: 768px) {
+    .floatingLabel{
+        width: 75%;
+    }
+    .formBtn{
+        width: calc( 75% - 2rem)
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .floatingLabel{
+        width: 50%;
+    }
+    .formBtn{
+        width: calc( 50% - 2rem)
+    }
+}
+@media only screen and (hover: none) and (pointer: coarse){
+    .floatingLabel{
+        width: 100%;
+        padding: 0 1rem;
+    }
+    .formControl{
+        width: 100%;
+        font-size: 1rem;
+    }
+    .floatingLabel>label{
+        margin: 0 1rem;
+        font-size: 1rem;
+    }
+    .formBtn{
+        width: calc( 100% - 2rem);
+        margin-bottom: 2rem;
+    }
 
-.formControl{
-    width: 50vw;
-    height: 4rem;
-    padding: 1rem 1.5rem;
-    font-size: 1.2rem;
-    border-radius: 4rem;
-    border: 0.125rem solid var(--color-dark);
-    background-clip: padding-box;
-    background-color: inherit;
-    appearance: none;
-    overflow: hidden;
-    transition: 
-        padding-top 0.2s ease-in-out
-        padding-bottom 0.2s ease-in-out
-        border-color 0.2s ease-in-out
-        outline 0.2s ease-in-out
-        box-shadow 0.2s ease-in-out;
-}
-.formControl::placeholder{
-    opacity: 0;
-}
-
-.floatingLabel>label{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding: 1.375rem 1.5rem;
-    overflow: hidden;
-    text-align: start;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    pointer-events: none;
-    border: 0.0625rem solid transparent;
-    transform-origin: 0 0;
-    transition: 
-        opacity .2s ease-in-out,
-        transform .2s ease-in-out;
-}
-
-.floatingLabel>.formControl:focus{
-    padding-top: 2rem;
-    padding-bottom: 0.5rem;
-}
-.floatingLabel>.formControl:focus~label{
-    opacity: 0.65;
-    transform: 
-        scale(0.85)
-        translateY(-0.875rem)
-        translateX(0.1875rem);
-}
-
-.formControl:focus{
-    border-color: #0d1b2a;
-    outline: 0;
-    box-shadow: 0 0 0 0.25rem rgba(13,27,42,0.25);
-}
-
-.formBtn{
-    width: 50vw;
-    height: 4rem;
-    margin-bottom: 4rem;
-    border-radius: 4rem;
-    border: 0.125rem solid var(--color-dark);
-    background-color: var(--color-dark);
-    color: var(--color-light);
 }

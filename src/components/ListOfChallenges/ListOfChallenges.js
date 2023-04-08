@@ -6,21 +6,11 @@ export default function ListOfChallenges(){
     const datas = dataBase.challenges;
     // console.log("datas : ", datas);
   return (
-    <div id="liste" className={styles.toto}>
+    <div id="liste" className={styles.listContainer}>
       <ul>
-        {/* <li>
-          <Link href="/">Home</Link>
-        </li>
-        <li>
-          <Link href="/">About Us</Link>
-        </li>
-        <li>
-          <Link href="/">Blog Post</Link>
-        </li> */}
-
         {datas.map(data =>
           <li key={data.id}>
-            <Link href="/">
+            <Link href={"/"+data.title.replace(/\s/g, '')}>
                 <span>{data.id+1}.</span>{data.title}
             </Link>
           </li>

@@ -1,85 +1,96 @@
-.seeBelow{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.seeBelow h3{
-    font-size: 3vw;
-}
-
-.arrowBelow{
-    position: relative;
-    width: 4rem;
-    height: 4rem;
-    margin: 2rem;
-    background-color: var(--color-dark);
-    border-radius: 4rem;
-}
-
-.arrowBelow div:first-child, .arrowBelow div:last-child{
-    position: absolute;
-    width: 2rem;
-    height: 0.25rem;
-    background-color: var(--color-light);
-    border-radius: 2rem;
-}
-.arrowBelow div:first-child{
-    top:0;
-    left:0;
-    transform: 
-        translateY(1.5rem)
-        rotate(45deg)
-        translateX(0.5rem);
-    transition: 0.2s ease-in-out;
-    animation: slideLeft 0.66s ease-in-out 0s infinite alternate;
-}
-.arrowBelow div:last-child{
-    top:0;
-    right:0;
-    transform: 
-        translateY(1.5rem)
-        rotate(-45deg)
-        translateX(-0.5rem);
-    transition: 0.2s ease-in-out;
-    animation: slideRight 0.66s ease-in-out 0s infinite alternate;
-}
-
-.arrowBelow:hover > div:first-child{
-    animation-play-state: paused;
-}
-.arrowBelow:hover > div:last-child{
-    animation-play-state: paused;
-}
-
-@keyframes slideLeft {
-    from {
-        transform: 
-        translateY(1.5rem)
-        rotate(45deg)
-        translateX(0.5rem);
+@media only screen {
+    .seeBelow{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    to {
+
+    .seeBelow h3{
+        font-size: 3vw;
+    }
+
+    .arrowBelow{
+        position: relative;
+        width: 4rem;
+        height: 4rem;
+        margin: 2rem;
+        background-color: var(--color-dark);
+        border-radius: 4rem;
+    }
+
+    .arrowBelow div:first-child, .arrowBelow div:last-child{
+        position: absolute;
+        width: 2rem;
+        height: 0.25rem;
+        background-color: var(--color-light);
+        border-radius: 2rem;
+    }
+    .arrowBelow div:first-child{
+        top:0;
+        left:0;
         transform: 
-        translateY(2.25rem)
-        rotate(45deg)
-        translateX(0.5rem);
+            translateY(1.5rem)
+            rotate(45deg)
+            translateX(0.5rem);
+        transition: 0.2s ease-in-out;
+        animation: slideLeft 0.66s ease-in-out 0s infinite alternate;
+    }
+    .arrowBelow div:last-child{
+        top:0;
+        right:0;
+        transform: 
+            translateY(1.5rem)
+            rotate(-45deg)
+            translateX(-0.5rem);
+        transition: 0.2s ease-in-out;
+        animation: slideRight 0.66s ease-in-out 0s infinite alternate;
+    }
+
+    .arrowBelow:hover > div:first-child{
+        animation-play-state: paused;
+    }
+    .arrowBelow:hover > div:last-child{
+        animation-play-state: paused;
+    }
+
+    @keyframes slideLeft {
+        from {
+            transform: 
+            translateY(1.5rem)
+            rotate(45deg)
+            translateX(0.5rem);
+        }
+        to {
+            transform: 
+            translateY(2.25rem)
+            rotate(45deg)
+            translateX(0.5rem);
+        }
+    }
+
+    @keyframes slideRight {
+        from {
+            transform: 
+            translateY(1.5rem)
+            rotate(-45deg)
+            translateX(-0.5rem);
+        }
+        to {
+            transform: 
+            translateY(2.25rem)
+            rotate(-45deg)
+            translateX(-0.5rem);
+        }
     }
 }
-
-@keyframes slideRight {
-    from {
-        transform: 
-        translateY(1.5rem)
-        rotate(-45deg)
-        translateX(-0.5rem);
+@media only screen and (hover: none) and (pointer: coarse){
+    .seeBelow{
+        width: 100%;
+        padding: 0 1rem;
     }
-    to {
-        transform: 
-        translateY(2.25rem)
-        rotate(-45deg)
-        translateX(-0.5rem);
+    .seeBelow h3{
+        font-size: 6vw;
     }
+    
 }
-
