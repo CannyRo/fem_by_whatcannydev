@@ -1,3 +1,4 @@
+import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 //
@@ -13,6 +14,8 @@ import styles from "../styles/Home.module.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const[filterWord, setFilterWord] = React.useState('');
+
   return (
     <>
       <Head>
@@ -25,9 +28,9 @@ export default function Home() {
       <main>
         <Cursor />
         <Title />
-        <Searchbar />
+        <Searchbar filterWord={filterWord} setFilterWord={setFilterWord}/>
         <Seebelow />
-        <ListOfChallenges />
+        <ListOfChallenges filterWord={filterWord}/>
       </main>
     </>
   );
